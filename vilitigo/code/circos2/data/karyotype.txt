@@ -1,0 +1,14 @@
+chr - OtoI&ItoO OtoI&ItoO 0 212 colorotoi&itoo
+chr - ItoO ItoO 0 38 coloritoo
+chr - OtoI OtoI 0 394 colorotoi
+chr - Male Male 0 281 colormale
+chr - Female Female 0 363 colorfemale
+chr - 61-80 61-80 0 41 color61-80
+chr - 41-60 41-60 0 147 color41-60
+chr - 21-40 21-40 0 346 color21-40
+chr - 0-20 0-20 0 110 color0-20
+chr - Others Others 0 100 colorothers
+chr - Body Body 0 58 colorbody
+chr - Head Head 0 486 colorhead
+
+

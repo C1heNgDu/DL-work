@@ -1,0 +1,377 @@
+scale atten_large 174 174
+scale atten_large 220 220
+scale atten_large 17 17
+scale atten_large 21 21
+scale atten_large 90 90
+scale atten_large 122 122
+scale atten_large 88 88
+scale atten_large 13 13
+scale atten_large 9 9
+scale atten_large 259 259
+scale atten_large 51 51
+scale atten_large 36 36
+scale atten_large 106 106
+scale atten_large 29 29
+scale atten_large 12 12
+scale atten_large 33 33
+scale atten_large 7 7
+scale atten_large 1 1
+scale atten_large 0 0
+scale atten_large 0 0
+scale atten_large 0 0
+hsvpercentile 0 0 1 1
+colorpercentile percentile00000 = 255,0,0
+hsvpercentile 5 15 1 1
+colorpercentile percentile00005 = 255,64,0
+hsvpercentile 10 30 1 1
+colorpercentile percentile00010 = 255,128,0
+hsvpercentile 15 45 1 1
+colorpercentile percentile00015 = 255,191,0
+hsvpercentile 20 60 1 1
+colorpercentile percentile00020 = 255,255,0
+hsvpercentile 25 75 1 1
+colorpercentile percentile00025 = 191,255,0
+hsvpercentile 30 90 1 1
+colorpercentile percentile00030 = 128,255,0
+hsvpercentile 35 105 1 1
+colorpercentile percentile00035 = 64,255,0
+hsvpercentile 40 120 1 1
+colorpercentile percentile00040 = 0,255,0
+hsvpercentile 45 135 1 1
+colorpercentile percentile00045 = 0,255,64
+hsvpercentile 50 150 1 1
+colorpercentile percentile00050 = 0,255,128
+hsvpercentile 55 165 1 1
+colorpercentile percentile00055 = 0,255,191
+hsvpercentile 60 180 1 1
+colorpercentile percentile00060 = 0,255,255
+hsvpercentile 65 195 1 1
+colorpercentile percentile00065 = 0,191,255
+hsvpercentile 70 210 1 1
+colorpercentile percentile00070 = 0,128,255
+hsvpercentile 75 225 1 1
+colorpercentile percentile00075 = 0,64,255
+hsvpercentile 80 240 1 1
+colorpercentile percentile00080 = 0,0,255
+hsvpercentile 85 255 1 1
+colorpercentile percentile00085 = 64,0,255
+hsvpercentile 90 270 1 1
+colorpercentile percentile00090 = 128,0,255
+hsvpercentile 95 285 1 1
+colorpercentile percentile00095 = 191,0,255
+hsvpercentile 100 300 1 1
+colorpercentile percentile00100 = 255,0,255
+table report row 0 OtoI 
+table report row 1 ItoO 
+table report row 2 OtoI&ItoO 
+table report row 3 0-20 
+table report row 4 21-40 
+table report row 5 41-60 
+table report row 6 61-80 
+table report row 7 81-105 
+table report col 0 Head 
+table report col 1 Others 
+table report col 2 Body 
+table report col 3 Male 
+table report col 4 Female 
+table report cell 0 OtoI 0 Head raw - cleaned/remapped -* scaled  missing? 1 hidden? 0
+table report cell 0 OtoI 1 Others raw - cleaned/remapped -* scaled  missing? 1 hidden? 0
+table report cell 0 OtoI 2 Body raw - cleaned/remapped -* scaled  missing? 1 hidden? 0
+table report cell 0 OtoI 3 Male raw 174 cleaned/remapped 174* scaled 174 missing? 0 hidden? 0
+table report cell 0 OtoI 4 Female raw 220 cleaned/remapped 220* scaled 220 missing? 0 hidden? 0
+table report cell 1 ItoO 0 Head raw - cleaned/remapped -* scaled  missing? 1 hidden? 0
+table report cell 1 ItoO 1 Others raw - cleaned/remapped -* scaled  missing? 1 hidden? 0
+table report cell 1 ItoO 2 Body raw - cleaned/remapped -* scaled  missing? 1 hidden? 0
+table report cell 1 ItoO 3 Male raw 17 cleaned/remapped 17* scaled 17 missing? 0 hidden? 0
+table report cell 1 ItoO 4 Female raw 21 cleaned/remapped 21* scaled 21 missing? 0 hidden? 0
+table report cell 2 OtoI&ItoO 0 Head raw - cleaned/remapped -* scaled  missing? 1 hidden? 0
+table report cell 2 OtoI&ItoO 1 Others raw - cleaned/remapped -* scaled  missing? 1 hidden? 0
+table report cell 2 OtoI&ItoO 2 Body raw - cleaned/remapped -* scaled  missing? 1 hidden? 0
+table report cell 2 OtoI&ItoO 3 Male raw 90 cleaned/remapped 90* scaled 90 missing? 0 hidden? 0
+table report cell 2 OtoI&ItoO 4 Female raw 122 cleaned/remapped 122* scaled 122 missing? 0 hidden? 0
+table report cell 3 0-20 0 Head raw 88 cleaned/remapped 88* scaled 88 missing? 0 hidden? 0
+table report cell 3 0-20 1 Others raw 13 cleaned/remapped 13* scaled 13 missing? 0 hidden? 0
+table report cell 3 0-20 2 Body raw 9 cleaned/remapped 9* scaled 9 missing? 0 hidden? 0
+table report cell 3 0-20 3 Male raw - cleaned/remapped -* scaled  missing? 1 hidden? 0
+table report cell 3 0-20 4 Female raw - cleaned/remapped -* scaled  missing? 1 hidden? 0
+table report cell 4 21-40 0 Head raw 259 cleaned/remapped 259* scaled 259 missing? 0 hidden? 0
+table report cell 4 21-40 1 Others raw 51 cleaned/remapped 51* scaled 51 missing? 0 hidden? 0
+table report cell 4 21-40 2 Body raw 36 cleaned/remapped 36* scaled 36 missing? 0 hidden? 0
+table report cell 4 21-40 3 Male raw - cleaned/remapped -* scaled  missing? 1 hidden? 0
+table report cell 4 21-40 4 Female raw - cleaned/remapped -* scaled  missing? 1 hidden? 0
+table report cell 5 41-60 0 Head raw 106 cleaned/remapped 106* scaled 106 missing? 0 hidden? 0
+table report cell 5 41-60 1 Others raw 29 cleaned/remapped 29* scaled 29 missing? 0 hidden? 0
+table report cell 5 41-60 2 Body raw 12 cleaned/remapped 12* scaled 12 missing? 0 hidden? 0
+table report cell 5 41-60 3 Male raw - cleaned/remapped -* scaled  missing? 1 hidden? 0
+table report cell 5 41-60 4 Female raw - cleaned/remapped -* scaled  missing? 1 hidden? 0
+table report cell 6 61-80 0 Head raw 33 cleaned/remapped 33* scaled 33 missing? 0 hidden? 0
+table report cell 6 61-80 1 Others raw 7 cleaned/remapped 7* scaled 7 missing? 0 hidden? 0
+table report cell 6 61-80 2 Body raw 1 cleaned/remapped 1* scaled 1 missing? 0 hidden? 0
+table report cell 6 61-80 3 Male raw - cleaned/remapped -* scaled  missing? 1 hidden? 0
+table report cell 6 61-80 4 Female raw - cleaned/remapped -* scaled  missing? 1 hidden? 0
+table report cell 7 81-105 0 Head raw 0 cleaned/remapped 0* scaled 0 missing? 0 hidden? 0
+table report cell 7 81-105 1 Others raw 0 cleaned/remapped 0* scaled 0 missing? 0 hidden? 0
+table report cell 7 81-105 2 Body raw 0 cleaned/remapped 0* scaled 0 missing? 0 hidden? 0
+table report cell 7 81-105 3 Male raw - cleaned/remapped -* scaled  missing? 1 hidden? 0
+table report cell 7 81-105 4 Female raw - cleaned/remapped -* scaled  missing? 1 hidden? 0
+row/col/label stat row 0-20 sum 110 n 3 min 9 max 88 avg 36.6666666666667
+row/col/label stat row 21-40 sum 346 n 3 min 36 max 259 avg 115.333333333333
+row/col/label stat row 41-60 sum 147 n 3 min 12 max 106 avg 49
+row/col/label stat row 61-80 sum 41 n 3 min 1 max 33 avg 13.6666666666667
+row/col/label stat row 81-105 sum 0 n 3 min 0 max 0 avg 0
+row/col/label stat row ItoO sum 38 n 2 min 17 max 21 avg 19
+row/col/label stat row OtoI sum 394 n 2 min 174 max 220 avg 197
+row/col/label stat row OtoI&ItoO sum 212 n 2 min 90 max 122 avg 106
+row/col/label stat col Body sum 58 n 5 min 0 max 36 avg 11.6
+row/col/label stat col Female sum 363 n 3 min 21 max 220 avg 121
+row/col/label stat col Head sum 486 n 5 min 0 max 259 avg 97.2
+row/col/label stat col Male sum 281 n 3 min 17 max 174 avg 93.6666666666667
+row/col/label stat col Others sum 100 n 5 min 0 max 51 avg 20
+row/col/label stat label 0-20 sum 110 n 3 min 9 max 88 avg 36.6666666666667
+row/col/label stat label 21-40 sum 346 n 3 min 36 max 259 avg 115.333333333333
+row/col/label stat label 41-60 sum 147 n 3 min 12 max 106 avg 49
+row/col/label stat label 61-80 sum 41 n 3 min 1 max 33 avg 13.6666666666667
+row/col/label stat label 81-105 sum 0 n 3 min 0 max 0 avg 0
+row/col/label stat label Body sum 58 n 5 min 0 max 36 avg 11.6
+row/col/label stat label Female sum 363 n 3 min 21 max 220 avg 121
+row/col/label stat label Head sum 486 n 5 min 0 max 259 avg 97.2
+row/col/label stat label ItoO sum 38 n 2 min 17 max 21 avg 19
+row/col/label stat label Male sum 281 n 3 min 17 max 174 avg 93.6666666666667
+row/col/label stat label Others sum 100 n 5 min 0 max 51 avg 20
+row/col/label stat label OtoI sum 394 n 2 min 174 max 220 avg 197
+row/col/label stat label OtoI&ItoO sum 212 n 2 min 90 max 122 avg 106
+labels ordered OtoI&ItoO OtoI Others Male ItoO Head Female Body 81-105 61-80 41-60 21-40 0-20
+label2seg 0 OtoI&ItoO OtoI&ItoO
+label2seg 1 OtoI OtoI
+label2seg 2 Others Others
+label2seg 3 Male Male
+label2seg 4 ItoO ItoO
+label2seg 5 Head Head
+label2seg 6 Female Female
+label2seg 7 Body Body
+label2seg 8 81-105 81-105
+label2seg 9 61-80 61-80
+label2seg 10 41-60 41-60
+label2seg 11 21-40 21-40
+label2seg 12 0-20 0-20
+labels ordered 0-20 21-40 41-60 61-80 81-105 Body Female Head ItoO Male Others OtoI OtoI&ItoO
+colordef colorotoi = 153,46,230
+colordef color41-60 = 230,199,46
+colordef color81-105 = 107,230,46
+colordef coloritoo = 46,168,230
+colordef colorhead = 46,230,214
+colordef color61-80 = 184,230,46
+colordef colorotoi&itoo = 230,46,230
+colordef colorfemale = 46,230,138
+colordef color21-40 = 230,122,46
+colordef colorothers = 77,46,230
+colordef colormale = 46,92,230
+colordef color0-20 = 230,46,46
+colordef colorbody = 46,230,61
+highlight row OtoI 0 220 fill_color=colorfemale
+highlight row OtoI 220 394 fill_color=colormale
+highlight row 41-60 0 106 fill_color=colorhead
+highlight row 41-60 106 135 fill_color=colorothers
+highlight row 41-60 135 147 fill_color=colorbody
+highlight row 81-105 0 0 fill_color=colorothers
+highlight row 81-105 0 0 fill_color=colorhead
+highlight row 81-105 0 0 fill_color=colorbody
+highlight row ItoO 0 21 fill_color=colorfemale
+highlight row ItoO 21 38 fill_color=colormale
+highlight row 61-80 0 33 fill_color=colorhead
+highlight row 61-80 33 40 fill_color=colorothers
+highlight row 61-80 40 41 fill_color=colorbody
+highlight row OtoI&ItoO 0 122 fill_color=colorfemale
+highlight row OtoI&ItoO 122 212 fill_color=colormale
+highlight row 21-40 0 259 fill_color=colorhead
+highlight row 21-40 259 310 fill_color=colorothers
+highlight row 21-40 310 346 fill_color=colorbody
+highlight row 0-20 0 88 fill_color=colorhead
+highlight row 0-20 88 101 fill_color=colorothers
+highlight row 0-20 101 110 fill_color=colorbody
+highlight col Head 0 259 fill_color=color21-40
+highlight col Head 259 365 fill_color=color41-60
+highlight col Head 365 453 fill_color=color0-20
+highlight col Head 453 486 fill_color=color61-80
+highlight col Head 486 486 fill_color=color81-105
+highlight col Female 0 220 fill_color=colorotoi
+highlight col Female 220 342 fill_color=colorotoi&itoo
+highlight col Female 342 363 fill_color=coloritoo
+highlight col Others 0 51 fill_color=color21-40
+highlight col Others 51 80 fill_color=color41-60
+highlight col Others 80 93 fill_color=color0-20
+highlight col Others 93 100 fill_color=color61-80
+highlight col Others 100 100 fill_color=color81-105
+highlight col Male 0 174 fill_color=colorotoi
+highlight col Male 174 264 fill_color=colorotoi&itoo
+highlight col Male 264 281 fill_color=coloritoo
+highlight col Body 0 36 fill_color=color21-40
+highlight col Body 36 48 fill_color=color41-60
+highlight col Body 48 57 fill_color=color0-20
+highlight col Body 57 58 fill_color=color61-80
+highlight col Body 58 58 fill_color=color81-105
+highlight all OtoI&ItoO 0 122 fill_color=colorfemale
+highlight all OtoI&ItoO 122 212 fill_color=colormale
+highlight all OtoI 0 220 fill_color=colorfemale
+highlight all OtoI 220 394 fill_color=colormale
+highlight all Others 0 51 fill_color=color21-40
+highlight all Others 51 80 fill_color=color41-60
+highlight all Others 80 93 fill_color=color0-20
+highlight all Others 93 100 fill_color=color61-80
+highlight all Others 100 100 fill_color=color81-105
+highlight all Male 0 174 fill_color=colorotoi
+highlight all Male 174 264 fill_color=colorotoi&itoo
+highlight all Male 264 281 fill_color=coloritoo
+highlight all ItoO 0 21 fill_color=colorfemale
+highlight all ItoO 21 38 fill_color=colormale
+highlight all Head 0 259 fill_color=color21-40
+highlight all Head 259 365 fill_color=color41-60
+highlight all Head 365 453 fill_color=color0-20
+highlight all Head 453 486 fill_color=color61-80
+highlight all Head 486 486 fill_color=color81-105
+highlight all Female 0 220 fill_color=colorotoi
+highlight all Female 220 342 fill_color=colorotoi&itoo
+highlight all Female 342 363 fill_color=coloritoo
+highlight all Body 0 36 fill_color=color21-40
+highlight all Body 36 48 fill_color=color41-60
+highlight all Body 48 57 fill_color=color0-20
+highlight all Body 57 58 fill_color=color61-80
+highlight all Body 58 58 fill_color=color81-105
+highlight all 81-105 0 0 fill_color=colorothers
+highlight all 81-105 0 0 fill_color=colorhead
+highlight all 81-105 0 0 fill_color=colorbody
+highlight all 61-80 0 33 fill_color=colorhead
+highlight all 61-80 33 40 fill_color=colorothers
+highlight all 61-80 40 41 fill_color=colorbody
+highlight all 41-60 0 106 fill_color=colorhead
+highlight all 41-60 106 135 fill_color=colorothers
+highlight all 41-60 135 147 fill_color=colorbody
+highlight all 21-40 0 259 fill_color=colorhead
+highlight all 21-40 259 310 fill_color=colorothers
+highlight all 21-40 310 346 fill_color=colorbody
+highlight all 0-20 0 88 fill_color=colorhead
+highlight all 0-20 88 101 fill_color=colorothers
+highlight all 0-20 101 110 fill_color=colorbody
+karyotype chr - OtoI&ItoO OtoI&ItoO 0 212 colorotoi&itoo
+segmentlabel OtoI&ItoO 0 212 OtoI&ItoO
+karyotype chr - OtoI OtoI 0 394 colorotoi
+segmentlabel OtoI 0 394 OtoI
+karyotype chr - Others Others 0 100 colorothers
+segmentlabel Others 0 100 Others
+karyotype chr - Male Male 0 281 colormale
+segmentlabel Male 0 281 Male
+karyotype chr - ItoO ItoO 0 38 coloritoo
+segmentlabel ItoO 0 38 ItoO
+karyotype chr - Head Head 0 486 colorhead
+segmentlabel Head 0 486 Head
+karyotype chr - Female Female 0 363 colorfemale
+segmentlabel Female 0 363 Female
+karyotype chr - Body Body 0 58 colorbody
+segmentlabel Body 0 58 Body
+karyotype chr - 61-80 61-80 0 41 color61-80
+segmentlabel 61-80 0 41 61-80
+karyotype chr - 41-60 41-60 0 147 color41-60
+segmentlabel 41-60 0 147 41-60
+karyotype chr - 21-40 21-40 0 346 color21-40
+segmentlabel 21-40 0 346 21-40
+karyotype chr - 0-20 0-20 0 110 color0-20
+segmentlabel 0-20 0 110 0-20
+chromosomes_scale = OtoI&ItoO:1.0000,OtoI:1.0000,Others:1.0000,Male:1.0000,ItoO:1.0000,Head:1.0000,Female:1.0000,Body:1.0000,81-105:1.0000,61-80:1.0000,41-60:1.0000,21-40:1.0000,0-20:1.0000
+loop OtoI&ItoO row
+loop OtoI&ItoO col
+loop OtoI row
+loop OtoI col
+loop Others row
+loop Others col
+loop Male row
+loop Male col
+loop ItoO row
+loop ItoO col
+loop Head row
+loop Head col
+loop Female row
+loop Female col
+loop Body row
+loop Body col
+loop 81-105 row
+loop 81-105 col
+loop 61-80 row
+loop 61-80 col
+loop 41-60 row
+loop 41-60 col
+loop 21-40 row
+loop 21-40 col
+loop 0-20 row
+loop 0-20 col
+link cell_0000 OtoI 220 394 color=colorotoi_a1,z=67
+link cell_0000 Male 17 191 color=colorotoi_a1,z=67
+colribboncap Male 17 191 fill_color=colorotoi
+rowribboncap OtoI 220 394 fill_color=colormale
+link cell_0001 OtoI 0 220 color=colorotoi_a1,z=85
+link cell_0001 Female 21 241 color=colorotoi_a1,z=85
+colribboncap Female 21 241 fill_color=colorotoi
+rowribboncap OtoI 0 220 fill_color=colorfemale
+link cell_0002 ItoO 21 38 color=coloritoo_a1,z=7
+link cell_0002 Male 0 17 color=coloritoo_a1,z=7
+colribboncap Male 0 17 fill_color=coloritoo
+rowribboncap ItoO 21 38 fill_color=colormale
+link cell_0003 ItoO 0 21 color=coloritoo_a1,z=8
+link cell_0003 Female 0 21 color=coloritoo_a1,z=8
+colribboncap Female 0 21 fill_color=coloritoo
+rowribboncap ItoO 0 21 fill_color=colorfemale
+link cell_0004 OtoI&ItoO 122 212 color=colorotoi&itoo_a1,z=35
+link cell_0004 Male 191 281 color=colorotoi&itoo_a1,z=35
+colribboncap Male 191 281 fill_color=colorotoi&itoo
+rowribboncap OtoI&ItoO 122 212 fill_color=colormale
+link cell_0005 OtoI&ItoO 0 122 color=colorotoi&itoo_a1,z=47
+link cell_0005 Female 241 363 color=colorotoi&itoo_a1,z=47
+colribboncap Female 241 363 fill_color=colorotoi&itoo
+rowribboncap OtoI&ItoO 0 122 fill_color=colorfemale
+link cell_0006 0-20 9 97 color=color0-20_a1,z=34
+link cell_0006 Head 0 88 color=color0-20_a1,z=34
+colribboncap Head 0 88 fill_color=color0-20
+rowribboncap 0-20 9 97 fill_color=colorhead
+link cell_0007 0-20 97 110 color=color0-20_a1,z=5
+link cell_0007 Others 0 13 color=color0-20_a1,z=5
+colribboncap Others 0 13 fill_color=color0-20
+rowribboncap 0-20 97 110 fill_color=colorothers
+link cell_0008 0-20 0 9 color=color0-20_a1,z=3
+link cell_0008 Body 0 9 color=color0-20_a1,z=3
+colribboncap Body 0 9 fill_color=color0-20
+rowribboncap 0-20 0 9 fill_color=colorbody
+link cell_0009 21-40 36 295 color=color21-40_a1,z=100
+link cell_0009 Head 88 347 color=color21-40_a1,z=100
+colribboncap Head 88 347 fill_color=color21-40
+rowribboncap 21-40 36 295 fill_color=colorhead
+link cell_0010 21-40 295 346 color=color21-40_a1,z=20
+link cell_0010 Others 13 64 color=color21-40_a1,z=20
+colribboncap Others 13 64 fill_color=color21-40
+rowribboncap 21-40 295 346 fill_color=colorothers
+link cell_0011 21-40 0 36 color=color21-40_a1,z=14
+link cell_0011 Body 9 45 color=color21-40_a1,z=14
+colribboncap Body 9 45 fill_color=color21-40
+rowribboncap 21-40 0 36 fill_color=colorbody
+link cell_0012 41-60 12 118 color=color41-60_a1,z=41
+link cell_0012 Head 347 453 color=color41-60_a1,z=41
+colribboncap Head 347 453 fill_color=color41-60
+rowribboncap 41-60 12 118 fill_color=colorhead
+link cell_0013 41-60 118 147 color=color41-60_a1,z=11
+link cell_0013 Others 64 93 color=color41-60_a1,z=11
+colribboncap Others 64 93 fill_color=color41-60
+rowribboncap 41-60 118 147 fill_color=colorothers
+link cell_0014 41-60 0 12 color=color41-60_a1,z=5
+link cell_0014 Body 45 57 color=color41-60_a1,z=5
+colribboncap Body 45 57 fill_color=color41-60
+rowribboncap 41-60 0 12 fill_color=colorbody
+link cell_0015 61-80 1 34 color=color61-80_a1,z=13
+link cell_0015 Head 453 486 color=color61-80_a1,z=13
+colribboncap Head 453 486 fill_color=color61-80
+rowribboncap 61-80 1 34 fill_color=colorhead
+link cell_0016 61-80 34 41 color=color61-80_a1,z=3
+link cell_0016 Others 93 100 color=color61-80_a1,z=3
+colribboncap Others 93 100 fill_color=color61-80
+rowribboncap 61-80 34 41 fill_color=colorothers
+link cell_0017 61-80 0 1 color=color61-80_a1,z=0
+link cell_0017 Body 57 58 color=color61-80_a1,z=0
+colribboncap Body 57 58 fill_color=color61-80
+rowribboncap 61-80 0 1 fill_color=colorbody
